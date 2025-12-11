@@ -12,6 +12,16 @@ import Layout from './Day42/Layout';
 import Header from './Day42/Header';
 import Content from './Day42/Content';
 import Footer from './Day42/Footer';
+import Counter from './Day43/task1';
+import TextInput from './Day43/task2';
+import Togglebutton from './Day43/task3';
+import Evenorodd from './Day43/task4';
+import Colorchange from './Day43/task5';
+import Loginform from './Day43/task6';
+import ThemeSwitcher from './Day43/task7';
+import Counterset from './Day43/task8';
+import Dropdown from './Day43/task9';
+import TodoApp from './Day43/task10';
 
 
 function App() {
@@ -45,6 +55,16 @@ function App() {
       <Header/>
       <Content/>
       <Footer/>
+      <Counter/>
+      <TextInput/>
+      <Togglebutton/>
+      <Evenorodd/>
+      <Colorchange/>
+      <Loginform/>
+      <ThemeSwitcher/>
+      <Counterset/>
+      <Dropdown/>
+      <TodoApp/>
     </div>
   );
 }
