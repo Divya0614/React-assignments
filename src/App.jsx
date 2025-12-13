@@ -22,6 +22,26 @@ import ThemeSwitcher from './Day43/task7';
 import Counterset from './Day43/task8';
 import Dropdown from './Day43/task9';
 import TodoApp from './Day43/task10';
+import Userstatus from './Day44/task1';
+import Premiumfeature from './Day44/task2';
+import Citylist from './Day44/task3';
+import CityList1 from './Day44/task4';
+import Citylist2 from './Day44/task5';
+import TodoList from './Day44/task6';
+import Userlist from './Day44/task8';
+import NotificationBadeg from './Day44/task9';
+import NotificationBadge from './Day44/task9';
+import Studentattendance from './Day44/task10';
+import HelloInput from './Day45/task1';
+import UppercaseInput from './Day45/task2';
+import UppercaseInput1 from './Day45/task2';
+import ControlledCheckbox from './Day45/task3';
+import CountryDropdown from './Day45/task4';
+import PasswordMatch from './Day45/task5';
+import RegistrationForm from './Day45/task7';
+import ProfileUpdateForm from './Day45/task8';
+import ShortValidatedForm from './Day45/task9';
+import ShortFeedbackForm from './Day45/task10';
 
 
 function App() {
@@ -39,9 +59,9 @@ function App() {
       </Card>
 
       <Profilecard name="Divya M"job="Developer" avatar="https://via.placeholder.com/100"/>
-      <Button1 text="Click me" color="green" size="large"/ >
+      <Button1 text="Click me" color="green" size="large"/>
       <Button1 text="Submit" color="red" size="small"/>
-      <Button1 text = "Login" />
+      <Button1 text = "Login"/>
 
 
 
@@ -65,6 +85,25 @@ function App() {
       <Counterset/>
       <Dropdown/>
       <TodoApp/>
+      <Userstatus/>
+      <Premiumfeature/>
+      <Citylist/>
+      <CityList1/>
+      <Citylist2/>
+      <TodoList/>
+      <Userlist/>
+      <NotificationBadge/>
+      <Studentattendance/>
+      <HelloInput/>
+      <UppercaseInput1/>
+      <ControlledCheckbox/>
+      <CountryDropdown/>
+      <PasswordMatch/>
+      <Loginform/>
+      <RegistrationForm/>
+      <ProfileUpdateForm/>
+      <ShortValidatedForm/>
+      <ShortFeedbackForm/>
     </div>
   );
 }
