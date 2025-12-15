@@ -42,6 +42,14 @@ import RegistrationForm from './Day45/task7';
 import ProfileUpdateForm from './Day45/task8';
 import ShortValidatedForm from './Day45/task9';
 import ShortFeedbackForm from './Day45/task10';
+import HelloName from './Day46/task1';
+import Loadonce from './Day46/task2';
+import Namelogger from './Day46/task4';
+import Titleupdate from './Day46/task5';
+import GitHubUser from './Day46/task6';
+import SearchUser from './Day46/task7';
+import CharacterCount from './Day46/task8';
+import LiveClock from './Day46/task10';
 
 
 function App() {
@@ -104,6 +112,16 @@ function App() {
       <ProfileUpdateForm/>
       <ShortValidatedForm/>
       <ShortFeedbackForm/>
+      <HelloName/>
+      <Loadonce/>
+      <Counter/>
+      <Namelogger/>
+      <Titleupdate/>
+      <GitHubUser/>
+      <SearchUser/>
+      <CharacterCount/>
+      <ThemeSwitcher/>
+      <LiveClock/>
     </div>
   );
 }
