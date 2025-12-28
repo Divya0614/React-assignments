@@ -7,7 +7,7 @@ export default function ThemeSwitcher() {
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
-  }, [theme]); // store theme when it changes
+  }, [theme]); 
 
   return (
     <div className={theme}>

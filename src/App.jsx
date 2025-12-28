@@ -50,6 +50,9 @@ import GitHubUser from './Day46/task6';
 import SearchUser from './Day46/task7';
 import CharacterCount from './Day46/task8';
 import LiveClock from './Day46/task10';
+import Home from './Home';
+import About from './About';
+import User from './User';
 
 
 function App() {
@@ -122,6 +125,21 @@ function App() {
       <CharacterCount/>
       <ThemeSwitcher/>
       <LiveClock/>
+       
+        {/* Navigation */}
+      <nav>
+        <Link to="/">Home</Link> |{" "}
+        <Link to="/about">About</Link> |{" "}
+        <Link to="/user/101">User 101</Link>
+      </nav>
+
+       {/* Routes */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/user/:id" element={<User />} />
+      </Routes>
+
     </div>
   );
 }
